@@ -1,2 +1,2 @@
 [workspace]
-members = ["pkcs11", "pkcs11-sys"]
+members = ["pkcs11", "pkcs11-sys", "test"]

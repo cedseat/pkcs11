@@ -1,0 +1,10 @@
+[package]
+name = "pkcs11-test"
+version = "0.1.0"
+authors = ["Martin Hoffmann <hn@nvnc.de>"]
+
+[dependencies]
+libc       = "0.2"
+libloading = "0.3"
+pkcs11 = { path = "../pkcs11" }
+pkcs11-sys = { path = "../pkcs11-sys" }

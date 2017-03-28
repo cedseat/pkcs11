@@ -14,10 +14,10 @@ pub use self::types::*;
 
 pub mod error;
 
-mod flags;
+pub mod flags;
 mod once;
-mod structs;
-mod types;
+pub mod structs;
+pub mod types;
 
 
 //============ Actual Content ================================================
